@@ -112,7 +112,7 @@ module.exports = mixin((superclass) => class Source extends mix(superclass).with
         if (!this._monitor && sourcePath) {
             Log.debug(`Watching ${this.name} directory - ${sourcePath}`);
             this._monitor = chokidar.watch(sourcePath, {
-                ignored: ignored: [/[\/\\]\./, '**/*.scss', '**/*.map'],
+                ignored: [/[\/\\]\./, '**/*.scss', '**/*.map'],
             });
             this._monitor.on('ready', () => {
                 this._monitor.on('all', (event, path) => {
