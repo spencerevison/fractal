@@ -142,7 +142,7 @@ module.exports = class Server extends mix(Emitter) {
             Log.debug(`Watching assets directory - ${s.path}`);
             const pathMatch = new RegExp(`^${s.path}`);
             const monitor = chokidar.watch(s.path, {
-                ignored: /[\/\\]\./,
+                ignored: ignored: [/[\/\\]\./, '**/*.scss', '**/*.map'],
             });
             monitor.on('change', filepath => syncServer.reload(Path.join(s.mount, filepath.replace(pathMatch, ''))));
             monitor.on('add', filepath => syncServer.reload());
