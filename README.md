@@ -20,7 +20,7 @@ Check out the the [Fractal documentation](http://fractal.build/guide) for more i
 
 ## Demo
 
-There is no 'official' demo for Fractal up yet, but [bits.24ways.org](http://bits.24ways.org) (repository: https://github.com/24ways/frontend) is an excellent example of a component library built on Fractal. Kudos to @paulrobertlloyd for his great work!
+There is no 'official' demo for Fractal up yet, but [bits.24ways.org](http://bits.24ways.org) (repository: https://github.com/24ways/frontend) is an excellent example of a component library built on Fractal. Kudos to [@paulrobertlloyd](https://github.com/paulrobertlloyd) for his great work!
 
 ## Requirements
 
@@ -36,6 +36,8 @@ Existing tests can be run using the `npm test` command.
 
 ## Credits
 
-Fractal is developed and maintained by [Mark Perkins](http://github.com/allmarkedup) and the team at [Clearleft](http://clearleft.com).
+Fractal is developed and maintained by [Danielle Huntrods](http://github.com/dkhuntrods), [Mark Perkins](http://github.com/allmarkedup) and all our excellent contributors.
 
-[![Clearleft](http://clearleft.com/assets/img/logo.png)](http://clearleft.com)
+Ongoing support by [Clearleft](https://clearleft.com) makes this project possible. Thank you!
+
+<a href="https://clearleft.com"><img width="110" src="http://clearleft.s3.amazonaws.com/logo.png"></a>
